@@ -8,6 +8,7 @@ const mapeo = JSON.parse(productos).map (producto => {
         nombre: producto.title,
         id: producto.id,
         precio: producto.price,
+        imagen: producto.thumbnail,
     }
 });
 
