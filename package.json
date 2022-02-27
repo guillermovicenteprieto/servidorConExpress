@@ -2,9 +2,10 @@
   "name": "express-server-proyect",
   "version": "1.0.0",
   "description": "Proyecto de servidor con node.js utilizando el módulo express",
-  "main": "ServidorExpress.js",
+  "main": "servidor.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "servidor.js"
   },
   "repository": {
     "type": "git",

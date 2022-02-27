@@ -3,6 +3,14 @@ const moment = require('moment');
 
 const fs = require('fs');
 const productos = fs.readFileSync('productos.txt', 'utf-8');
+const mapeo = JSON.parse(productos).map (producto => {
+    return {
+        nombre: producto.title,
+        id: producto.id,
+        precio: producto.price,
+    }
+});
+
 
 
 const app = express();
@@ -27,14 +35,11 @@ app.get('/', (req, res) => {
     `)
 })
 
-app.get('/productos',  (req, res) => {
-    res.send(JSON.parse(productos));
+app.get('/productos', (req, res) => {
+    res.send(mapeo);
 })
 
 app.get('/productoRandom', (req, res) => {
     const productoRandom = JSON.parse(productos)[Math.floor(Math.random() * JSON.parse(productos).length)];
     res.send(productoRandom);
 })
-
-
-
