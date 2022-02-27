@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Ensaladera",
+    "price": 1600,
+    "thumbnail": "https://res.cloudinary.com/nuco/image/upload/v1643143101/Productos/ensaladera_lds71l.jpg",
+    "id": 1
+  },
+  {
+    "title": "Taza Grande",
+    "price": 1200,
+    "thumbnail": "https://res.cloudinary.com/nuco/image/upload/v1643143063/Productos/TazaGr_lpner0.jpg",
+    "id": 2
+  },
+  {
+    "title": "Taza Pequeña",
+    "price": 800,
+    "thumbnail": "https://res.cloudinary.com/nuco/image/upload/v1643143067/Productos/tazasCh_pkeump.jpg",
+    "id": 3
+  }
+]

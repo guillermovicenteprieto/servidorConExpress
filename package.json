@@ -1,0 +1,23 @@
+{
+  "name": "express-server-proyect",
+  "version": "1.0.0",
+  "description": "Proyecto de servidor con node.js utilizando el módulo express",
+  "main": "ServidorExpress.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillermovicenteprieto/servidorConExpress.git"
+  },
+  "author": "Guillermo Vicente",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillermovicenteprieto/servidorConExpress/issues"
+  },
+  "homepage": "https://github.com/guillermovicenteprieto/servidorConExpress#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "moment": "^2.29.1"
+  }
+}
