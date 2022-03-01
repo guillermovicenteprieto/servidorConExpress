@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Buzo Jaguar",
+    "price": 1500,
+    "thumbnail":"https://res.cloudinary.com/nuco/image/upload/v1643143127/Productos/buzoJaguar_u0dahh.jpg",
+    "id": 1
+  },
+  {
+    "title": "Buzo Ojos",
+    "price": 1500,
+    "thumbnail":"https://res.cloudinary.com/nuco/image/upload/v1643143127/Productos/buzoOjos_tkjhho.jpg",
+    "id": 2
+  },
+  {
+    "title": "Buzo Primavera",
+    "price": 1500,
+    "thumbnail":"https://res.cloudinary.com/nuco/image/upload/v1643143874/Productos/buzoPrimavera_slxmjt.jpg",
+    "id": 3
+  }
+]

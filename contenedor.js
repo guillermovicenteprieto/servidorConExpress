@@ -108,8 +108,8 @@ class Contenedor {
     }
 }
 
-const contenedor = new Contenedor("Productos.txt");
-
+const contenedor = new Contenedor("productos.txt");
+module.exports = contenedor;
 //instancio los productos
 // contenedor.save({
 //     title: "Ensaladera",
@@ -117,14 +117,12 @@ const contenedor = new Contenedor("Productos.txt");
 //     thumbnail:
 //         "https://res.cloudinary.com/nuco/image/upload/v1643143101/Productos/ensaladera_lds71l.jpg",
 // });
-
-//   contenedor.save({
+// contenedor.save({
 //     title: "Taza Grande",
 //     price: 1200,
 //     thumbnail:
 //       "https://res.cloudinary.com/nuco/image/upload/v1643143063/Productos/TazaGr_lpner0.jpg",
 //   });
-
 // contenedor.save({
 //     title: "Taza Pequeña",
 //     price: 800,
@@ -133,5 +131,30 @@ const contenedor = new Contenedor("Productos.txt");
 // });
 
 
-const productos = contenedor.getAll().then((res) => console.log(res))
+//const productos = contenedor.getAll().then((res) => console.log(res))
 
+//agregando productosNuevos
+const productosNuevos = new Contenedor("productosNuevos.txt");
+// productosNuevos.save({
+//     title: "Buzo Jaguar",
+//     price: 1500,
+//     thumbnail:
+//          "https://res.cloudinary.com/nuco/image/upload/v1643143127/Productos/buzoJaguar_u0dahh.jpg",",
+// });
+
+// productosNuevos.save({
+//     title: "Buzo Ojos",
+//     price: 1500,
+//     thumbnail:
+//        "https://res.cloudinary.com/nuco/image/upload/v1643143127/Productos/buzoOjos_tkjhho.jpg",
+// });
+
+// productosNuevos.save({
+//     title: "Buzo Primavera",
+//     price: 1500,
+//     thumbnail:
+//        "https://res.cloudinary.com/nuco/image/upload/v1643143874/Productos/buzoPrimavera_slxmjt.jpg",
+// });
+
+//exporto la nueva instancia de contenedor
+module.exports = productosNuevos;
